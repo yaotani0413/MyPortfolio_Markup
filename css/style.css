@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding-top: 71px;
+}
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba( 255, 255, 255, 0.7 );
+    color: #000000;
+}
+
+.nav-wrapper {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo {
+  height: 80%;
+  width: 6%;
+  margin-top: 7px;
+}
+
+.navchoice {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navchoice-btn {
+  padding: 0 25px;
+  list-style: none;
+}
+
+.top-container {
+  height: calc(100vh - 71px);
+  width: 100vw;
+  background-color: #1BA1E2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.greet {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container p {
+  position: absolute;
+  color: white;
+  top: 215px;
+  left: 150px;
+  font-size: 40px;
+  margin: 0;
+}
+
+.drum {
+  height: 400px;
+  width: 400px;
+}
+
+.about-container {
+  min-height: 100vh;
+  width: 100vw;
+  /* background-color: tomato; */
+  background-image: url(../img/wallpaper.jpeg);
+}
