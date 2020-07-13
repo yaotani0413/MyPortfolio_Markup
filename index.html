@@ -9,26 +9,49 @@
 <body>
   <header>
     <div class="navbar-fixed">
-      <div class="nav-wrapper">
-        <img class="logo" src="img/logo.png" alt="ロゴ">
+      <nav class="nav-wrapper">
+        <div class="logo"></div>
         <ul class="navchoice">
           <li class="navchoice-btn">Top</li>
           <li class="navchoice-btn">About</li>
           <li class="navchoice-btn">Skill</li>
           <li class="navchoice-btn">Contact</li>
         </ul>
-      </div>
+      </nav>
     </div>
   </header>
-  <div class="top-container">
-    <div class="title"><span class="greet">Hello World!</span><br>This is Yaotani's instruction manual</div>
+  <section class="top">
+    <h1 class="top-title"><span class="greet">Hello World!</span><br>This is Yaotani's instruction manual</h1>
     <div class="img-container">
       <p>GO!!</p>
-      <img class="drum" src="img/drum.png" alt="ドラム">
+      <div class="drum"></div>
     </div>
-  </div>
-  <div id="about" class="about-container">
-    
-  </div>
+  </section>
+  <section class="about">
+    <div class="about-container">
+      <h1 class="about-title">About Me</h1>
+      <div class="row">
+        <img class="original-image" src="img/my.JPG" alt="自分の写真">
+        <h3 class="introduce">1994年4月13日生まれの26歳、大阪出身のエンジニア。<br>
+          帝京大学経済学部経済学科を卒業し、某携帯会社の代理店へ就職。<br>
+          その後、日々のルーチンワークと今後の人生について悩みを抱え、エンジニアという生き方に魅力を感じたため、24歳でIT業界へ転職。<br>
+          Ciscoルータの運用・監視よりキャリアをスタートし、MicrosoftAzureのサポート業務を経験。現在はWebエンジニアを目標に、日々勉強中。<br>
+          ■GitHub :<a class="Github-URL" href="https://github.com/yaotani0413"> https://github.com/yaotani0413</a></h3>
+      </div>
+    </div>
+  </section>
+  <section class="skill">
+    <h1 class="skill-title">My Skill Set</h1>
+    <div class="skill-set">
+      <article class="skill-set-items">
+        ●言語・・・HTML / CSS / JavaScript<br>
+        ●フレームワーク、ライブラリ・・・Vue.js / Nuxt.js<br>
+        ●ツール・・・Git / Firebase<br>
+        ●OS・・・Windows / Linux
+      </article>
+    </div>
+    <div class="products"></div>
+    <div class="products-description"></div>
+  </section>
 </body>
 </html>
