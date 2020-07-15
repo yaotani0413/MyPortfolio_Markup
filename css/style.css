@@ -1,24 +1,35 @@
 body {
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
-  padding-top: 71px;
   font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+}
+
+main {
+  max-width: 1000px;
+  width: 100%;
+  margin-top: 71px;
+}
+
+@media screen and (min-width: 769px) {
+  .logo:hover {
+    opacity: 0.7;
+  }
+  .navchoice-btn:hover {
+    opacity: 0.7;
+  }
 }
 
 .navbar-fixed {
   position: fixed;
   top: 0;
   left: 0;
-  height: 70px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba( 255, 255, 255, 0.8 );
+  background-color: rgba( 255, 255, 255, 0.9 );
   color: #000000;
   z-index: 10;
+  box-shadow: 0 0 5px 2px #808080;
 }
 
 .nav-wrapper {
@@ -26,12 +37,12 @@ body {
   width: 70%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .logo {
-  height: 100%;
-  width: 6%;
+  width: 70px;
+  height: 70px;
   cursor: pointer;
   background-image: url(../img/logo.png);
   background-size: contain;
@@ -39,7 +50,6 @@ body {
 }
 
 .navchoice {
-  margin-left: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -70,6 +80,8 @@ body {
   font-size: 2rem;
   text-shadow: 5px 5px 5px #808080; 
   letter-spacing: 1px;
+  min-width: 480px;
+  height: auto;
 }
 
 .greet {
@@ -77,11 +89,15 @@ body {
   font-weight: bold;
 }
 
+.img-container {
+  position: relative;
+}
+
 .img-container p {
   position: absolute;
   color: white;
-  top: 630px;
-  left: 914px;
+  top: 215px;
+  left: 150px;
   font-size: 40px;
   margin: 0;
   cursor: pointer;
@@ -112,10 +128,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .about-title {
-  height: 10%;
   width: 50%;
   text-align: center;
   line-height: 10vh;
@@ -123,6 +139,8 @@ body {
   font-weight: bold;
   text-shadow: 5px 5px 5px #808080; 
   margin: 0;
+  min-width: 370px;
+  height: auto;
 }
 
 .row {
@@ -149,7 +167,7 @@ body {
   margin-left: 10px;
   padding: 40px;
   text-shadow: 1px 1px 2px #808080; 
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 .Github-logo {
@@ -198,7 +216,7 @@ body {
   line-height: 70px;
   font-size: 1.3rem;
   background-color: white;
-  padding: 30px 20px 20px 20px;
+  padding: 30px 20px 20px 50px;
   background-color: white;
   border-top: solid 5px #5d627b;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.22);
@@ -227,6 +245,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 30px;
+  min-width: 700px;
 }
 
 .product-screen {
