@@ -11,17 +11,17 @@
     <img  class="logo" src="img/logo.png" alt="ロゴ">
     <ul class="nav_content">
       <li class="nav_btn">Top</li>
-      <li class="nav_btn">Skill</li>
       <li class="nav_btn">About</li>
+      <li class="nav_btn">Skill</li>
       <li class="nav_btn">Contact</li>
     </ul>
   </header>
   <main>
     <section class="top">
       <h1 class="top_title"><span class="greet">Hello World!</span><br>This is Yaotani's instruction manual</h1>
-      <div class="drum">
-        <p>GO!</p>
-      </div>
+      <p class="drum">
+        <button>GO!</button>
+      </p>
     </section>
     <section class=about>
       <h1 class="about_title">About me</h1>
@@ -88,26 +88,25 @@
       <div class="contact_container">
         <div class="contact_row">
           <div class="name_iptxt">
-            <label>
               <input  class="name" type="text" placeholder="お名前">
-            </label>
           </div>
           <div class="mail_iptxt">
-            <label>
               <input class="mail" type="text" placeholder="メールアドレス">
-            </label>
           </div>
         </div>
         <div class="comment_iptxt">
-          <label>
           <textarea class="comment" name="comment" id="" cols="30" rows="10" placeholder="コメント"></textarea>
-          </label>
         </div>
       </div>
-      <button class="send_btn">SEND</button>
+      <button class="send_btn" type="submit">SEND</button>
+    </section>
+    <section class="thank">
+      <h1 class="thank_title">Thank you for watching!</h1>
+      <h3 class="thank_subtitle">〜Aiming for greater heights〜</h3>
     </section>
   </main>
-  <footer>
+  <footer class="footer">
+    <h6 class="copyright">©︎ 2020 Atsushi Yaotani</h6>
   </footer>
 </body>
 </html>
